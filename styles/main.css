@@ -269,6 +269,12 @@ html, body{
 .text-desc{
     color: black;
 }
+.HumanName{
+    font-family: 'Montserrat', sans-serif;
+}
+.CreationDate{
+    font-family: 'Lato', sans-serif;
+}
 
 
 
@@ -281,7 +287,6 @@ html, body{
     padding-top: 130px;
     padding-left: 24px;
 }
-
 
 
     /*Card3*/

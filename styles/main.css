@@ -249,7 +249,7 @@ html, body{
 
 
 
-/*Card*/
+    /*Cards*/
 .cards{
     display: flex;
     gap: 20px;
@@ -257,17 +257,25 @@ html, body{
     color: #fff;
 }
     /*Card1*/
+.card1 {
+    min-width: 300px;
+}
 .bottom-container__card1{
     display: flex;
     gap: 8px;
     background: url("../img/jpg/bottom-img1.jpg")  no-repeat;
-    width: 300px;
     padding-top: 130px;
     padding-left: 24px;
     padding-bottom: 20px;
 }
-.text-desc{
+.text {
     color: black;
+    max-width: 272px;
+    padding-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
 .HumanName{
     font-family: 'Montserrat', sans-serif;
@@ -279,24 +287,32 @@ html, body{
 
 
     /*Card2*/
+.card2 {
+    min-width: 300px;
+}
 .bottom-container__card2{
     display: flex;
     gap: 8px;
     background: url("../img/jpg/bottom-img2.jpg")  no-repeat;
-    width: 300px;
+    min-width: 300px;
     padding-top: 130px;
     padding-left: 24px;
+    min-height: 65px;
 }
 
 
     /*Card3*/
+.card3 {
+    min-width: 300px;
+}
 .bottom-container__card3{
     display: flex;
     gap: 8px;
     background: url("../img/jpg/bottom-img3.jpg")  no-repeat;
-    width: 300px;
+    min-width: 300px;
     padding-top: 130px;
     padding-left: 24px;
+    min-height: 65px;
 }
 .description{
     display: flex;
